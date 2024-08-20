@@ -64,6 +64,11 @@ public class Dashboard extends javax.swing.JFrame {
         b2.setBackground(new java.awt.Color(204, 204, 204));
         b2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         b2.setText("Add Books");
+        b2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                b2ActionPerformed(evt);
+            }
+        });
 
         b3.setBackground(new java.awt.Color(204, 204, 204));
         b3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -158,6 +163,11 @@ public class Dashboard extends javax.swing.JFrame {
         showStaff staff = new showStaff();
         staff.setVisible(true);
     }//GEN-LAST:event_b4ActionPerformed
+
+    private void b2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b2ActionPerformed
+       addBook add = new addBook();
+       add.setVisible(true);
+    }//GEN-LAST:event_b2ActionPerformed
 
     /**
      * @param args the command line arguments
