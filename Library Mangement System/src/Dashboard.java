@@ -150,7 +150,8 @@ public class Dashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_b6ActionPerformed
 
     private void b5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b5ActionPerformed
-        // TODO add your handling code here:
+        addStaff staff = new addStaff();
+        staff.setVisible(true);
     }//GEN-LAST:event_b5ActionPerformed
 
     private void b1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b1ActionPerformed
